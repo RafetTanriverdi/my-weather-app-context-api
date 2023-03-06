@@ -8,12 +8,12 @@ function Table() {
     const { weather } = useContext(WeatherContext);
     console.log(weather)
     return (
-        <div style={{display:'flex'}}>
+        <div style={{position:"relative",display:'flex'}}>
           {
             weather.map((item)=>{
               return(
 
-                <CardItem item={item}/>
+                <CardItem  key={item.date_epoch} item={item}/>
               )
 
             })

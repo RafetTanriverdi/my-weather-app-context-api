@@ -22,7 +22,7 @@ function Select() {
 
     return (
         <div>
-            <Box sx={{ minWidth: 120, maxWidth: "150px" }}>
+            <Box sx={{ minWidth: 120, maxWidth: "150px" }} style={{ margin:"25px"}}>
                 <FormControl fullWidth>
                     <InputLabel variant="standard" htmlFor="uncontrolled-native">
                         Şehir
