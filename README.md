@@ -1,6 +1,6 @@
 ## Weather App 
 
-![Untitled](/src/weather%20app.gif)
+![Untitled](/src/weather.gif)
 
 
 # Getting Started with Create React App

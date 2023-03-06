@@ -8,7 +8,7 @@ function Table() {
     const { weather } = useContext(WeatherContext);
     console.log(weather)
     return (
-        <div style={{position:"relative",display:'flex'}}>
+        <div style={{position:"relative",display:'flex',}} className="mobile">
           {
             weather.map((item)=>{
               return(
